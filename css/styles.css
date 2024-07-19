@@ -1,0 +1,164 @@
+:root {
+    --white: #ffffff;
+    --lightblue: #31bdc7;
+    --dark: #000000;
+    --primary: #F8FAFC;
+    --secundary: #4c921e;
+    --botones: #92621e;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    color: var(--dark);
+    font-weight: 500;
+}
+.nombre {margin: 0rem;
+    padding: 0rem;
+}
+header h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--dark);
+    font-weight: 500;
+}
+header nav {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1 span {
+    font-size: 2rem;
+}
+.enlace {color: var(--white);
+    text-decoration: none;
+}
+.navegacion {text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--secundary);
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10%;
+}
+@media (min-width: 480px) {
+    .navegacion {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+.titulo {font-size: 2.5rem;
+    margin: 2rem;
+}
+.webdeveloper {margin: 0rem;
+    padding: 0rem;
+}
+.espacio {
+    margin: 4rem;
+}
+.cabeza {
+    margin: 0rem;
+    padding: 1rem;
+}
+.fondo {
+    background-image: url(../img/oredenador.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 480px) {
+    .fondo {
+        width: auto;
+    }
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    border-radius: 3%;
+    margin-top: 1rem;
+    max-width: 1400px;
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1100;
+        margin: 2rem auto;
+    }
+}
+.servicios {
+    text-align: center;
+    font-size: 2rem;
+}
+.variables {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.diseno-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(231, 48, 48, 0.6);
+    border-radius: 50%;
+}
+.aplicacion-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(231, 48, 48, 0.6);
+    border-radius: 50%;
+}
+.market-place {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(231, 48, 48, 0.6);
+    border-radius: 50%;
+}
+.arreglo-error {
+    position: relative;
+    height: 200px;
+}
+.transparencia {
+    position: absolute;
+    background-color: rgba(0.65, 88, 789, 0.3);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+.localidad {
+    font-size: 2rem;
+}
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+
+.centrado img {
+    width: 2rem;
+}
+.telefono {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--white);
+    background-color: rgba(189, 110, 7, 0.429);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.68rem;
+}
+@media (min-width: 480px) {
+    .boton-telefono {
+        width: auto;
+    }
+}
