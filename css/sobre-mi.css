@@ -1,7 +1,6 @@
 :root {
-    --cabecera: #350404;
+    --cabecera-letra: #350404;
     --colorfondo1: #0e5b31;
-
 }
 html {
     font-family: 'Times New Roman', Times, serif;
@@ -9,6 +8,9 @@ html {
 .fondo {
     background-color: rgba(237, 125, 77, 0.789);
 }
+
+/* La cabecera */
+
 header {
     background-color: rgba(22, 107, 58, 0.645);
     margin: 4rem 10rem auto 0rem;
@@ -21,3 +23,7 @@ header h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--cabecera);
 }
+
+/* Fin de la cabecera */
+
+
