@@ -5,6 +5,7 @@
     --primary: #F8FAFC;
     --secundary: #4c921e;
     --botones: #92621e;
+    --pulsar: #eeb360;
 }
 * {
     box-sizing: border-box;
@@ -13,9 +14,12 @@ html {
     font-size: 62.5%;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* Todo lo que es la cabecera */
+
 header h1 {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 5rem;
     color: var(--dark);
     font-weight: 500;
 }
@@ -37,25 +41,30 @@ header h1 span {
 }
 .enlace {color: var(--white);
     text-decoration: none;
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    margin-right: .5rem;
 }
 .navegacion {text-align: center;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--secundary);
-    padding: 1.5rem;
     flex-direction: column;
     align-items: center;
     margin: 1rem 2rem;
     border-radius: 3rem;
+}
+.navegacion :hover {
+    background-color: var(--botones);
+    border-radius: 10%;
 }
 @media (min-width: 480px) {
     .navegacion {
         flex-direction: row;
         justify-content: space-around;
     }
-}
-.titulo {font-size: 2.5rem;
-    margin: 2rem;
 }
 .webdeveloper {margin: 0rem;
     padding: 0rem;
@@ -77,6 +86,65 @@ header h1 span {
         width: auto;
     }
 }
+.arreglo-error {
+    position: relative;
+    height: 200px;
+    margin: 1rem 2rem;
+}
+   
+.transparencia {
+    position: absolute;
+    background-color: rgba(0.65, 88, 789, 0.3);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+}
+.titulo {font-size: 3.5rem;
+    margin: 1rem 2rem 1rem 2rem;
+}
+.localidad {
+    font-size: 2rem;
+    margin: 0rem 0rem 2rem 0rem;
+}
+.chincheta {
+    margin-bottom: 2rem;
+}
+.telefono {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--white);
+    background-color: rgba(189, 110, 7, 0.429);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.68rem;
+}
+
+.telefono:hover {
+    background-color: #eeb360;
+}
+@media (min-width: 480px) {
+    .boton-telefono {
+        width: auto;
+    }
+}
+.centrado {
+    display: flex;
+    justify-content: center;
+}
+.centrado img {
+    width: 2rem;
+}
+
+/* Fin de la seccion de cabecera*/
+
+/* Seccion que contiene todo lo que son los recuadros esos de explicación que llamé variables*/
+
 .container {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 1rem;
@@ -99,6 +167,10 @@ header h1 span {
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    flex-grow: 1;
+}
+.parrafo {
+    text-align: justify;
 }
 @media (min-width: 480px) {
     .variables {
@@ -111,6 +183,7 @@ header h1 span {
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 2rem;
+    
 }
 .boton-a {
     text-align: center;
@@ -140,13 +213,20 @@ header h1 span {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 2rem
+    font-size: 2rem;
+    
 }
 .market-place {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 2rem
+    font-size: 2rem;
+    
+}
+@media (min-width: 756px) {
+    .aplicacion-web, .diseno-web, .market-place {
+        width: 30%;
+    }
 }
 .icono {
     background-color: var(--lightblue);
@@ -155,50 +235,9 @@ header h1 span {
     border-radius: 50%;
     padding: 1rem;
 }
-.arreglo-error {
-    position: relative;
-    height: 200px;
-    margin: 1rem 2rem;
-}
-   
-.transparencia {
-    position: absolute;
-    background-color: rgba(0.65, 88, 789, 0.3);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 3rem;
-}
-.localidad {
-    font-size: 2rem;
-}
-.centrado {
-    display: flex;
-    justify-content: center;
-}
 
-.centrado img {
-    width: 2rem;
-}
-.telefono {
-    font-size: 2rem;
-    text-decoration: none;
-    color: var(--white);
-    background-color: rgba(189, 110, 7, 0.429);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-radius: 0.68rem;
-}
-@media (min-width: 480px) {
-    .boton-telefono {
-        width: auto;
-    }
-}
+/* Seccion formulario */
+
 .formulario {
     background-color: rgba(10, 10, 10, 0.434);
     width: min(80rem, 100%);
@@ -245,6 +284,9 @@ header h1 span {
     width: 100%;
     border: none;
 }
-
-
-
+/* Fin de seccion formulario*/
+/* Footer*/
+.footer {
+    margin-left: 1rem;
+    font-size: 14px;
+}

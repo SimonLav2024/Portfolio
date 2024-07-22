@@ -1,0 +1,23 @@
+:root {
+    --cabecera: #350404;
+    --colorfondo1: #0e5b31;
+
+}
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+.fondo {
+    background-color: rgba(237, 125, 77, 0.789);
+}
+header {
+    background-color: rgba(22, 107, 58, 0.645);
+    margin: 4rem 10rem auto 0rem;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 0.5rem;
+}
+header h1 {
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--cabecera);
+}
