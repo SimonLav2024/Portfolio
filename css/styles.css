@@ -13,6 +13,8 @@
 html {
     font-size: 62.5%;
     font-family: 'Times New Roman', Times, serif;
+    /* Esto es para que la pagina se deslice suavamente cuando le das a uno de los botones de navecación*/
+    scroll-behavior: smooth;
 }
 
 /* Todo lo que es la cabecera */

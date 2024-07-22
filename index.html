@@ -14,16 +14,16 @@
 
 <div class="fondo">
 <body>
-    <header>
+    <header id="Inicio">
         <p class="cabeza">             </p>
-        <h1 class="nombre">Simón Lavdorenko Shyn</h1>
+        <h1 id="Flecha" class="nombre">Simón Lavdorenko Shyn</h1>
         <h2 class="webdeveloper">Web Developer</h2>
         <p class="espacio">               </p>
         <nav class="navegacion">
-            <a class="enlace" href="#">Inicio</a>
-            <a class="enlace" href="#">Sobre mi</a>
-            <a class="enlace" href="#">Trabajos</a>
-            <a class="enlace" href="#">Contacto</a>
+            <a class="enlace" href="#Inicio">Inicio</a>
+            <a class="enlace" href="sobre-mi.html">Sobre mi</a>
+            <a class="enlace" href="#Trabajos">Trabajos</a>
+            <a class="enlace" href="#Contactos">Contacto</a>
         </nav>
         <div class="arreglo-error">
             <section class="transparencia">
@@ -40,7 +40,7 @@
     </header>
     <div class="container">
         <main>
-            <section>
+            <section id="Trabajos">
                 <h2 class="servicios">Servicios</h2>
                 <div class="variables">
                         <div class="diseno-web">
@@ -66,7 +66,7 @@
                         </div>
                  </div>
                             </section> <!-- Fin section servicios -->
-                        <section>
+                        <section id="Contactos">
                                 <h2 class="contacto">Contacto</h2>
                             <!-- Formulario -->
                             <form class="formulario">
@@ -90,15 +90,16 @@
                                             <textarea></textarea>
                                         </div>
                                     </div>
-                                    <input class="telefono enviar" type="submit" value="Enviar">
+                                    <input style="cursor: pointer;"  class="telefono enviar" type="submit" value="Enviar">
                                 </fieldset>
                             </form>
+                            <a href="#Flecha"><img src="img/icons8-flecha-arriba-100.png" alt="flech"></a>
                             <!-- Fin de Formulario -->
                         </section>
                     </main>
     </div>
                     <footer class="footer">
-                        <p>Todos los derechos reservados. Simón Lavdorenko Shyn</p>
+                        <p>® Todos los derechos reservados. Simón Lavdorenko Shyn</p>
                         <p>Todo lo que hay escrito es una obra de ficción y cualquier parecido con la realidad es puramente casual y no responsabiliza ni vincula al creador</p>
                     </footer>
 </body>
