@@ -203,6 +203,14 @@ header h1 span {
     width: 27rem;
     border-radius: 3rem;
     margin: 3rem auto;
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes scale {
+    from {transform: scale(1);}
+    to {transform: scale(1.2)}
 }
 .boton-b {
     text-align: center;
@@ -211,6 +219,10 @@ header h1 span {
     width: 27rem;
     border-radius: 3rem;
     margin: 3rem auto;
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .boton-c {
     text-align: center;
@@ -219,6 +231,10 @@ header h1 span {
     width: 27rem;
     border-radius: 3rem;
     margin: 3rem auto;
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .aplicacion-web {
     display: flex;
