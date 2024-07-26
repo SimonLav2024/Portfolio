@@ -294,6 +294,18 @@ header h1 span {
 .enviar {
     width: 100%;
     border: none;
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--white);
+    background-color: rgba(189, 110, 7, 0.429);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.68rem;
+}
+.enviar:hover {
+    background-color: var(--botones);
 }
 /* Fin de seccion formulario*/
 /* Footer*/
