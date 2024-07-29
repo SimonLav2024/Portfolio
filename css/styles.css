@@ -265,8 +265,32 @@ header h1 span {
 
 /* mis proyectos en la seccion de trabajos */
 
-.img-receta {
-    
+.tratra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-grow: 1;
+    background-color: #bab6b666;
+    border-radius: 3%;
+}
+.receta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+.brexit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+.boots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2rem;
 }
 
 /* fin */
