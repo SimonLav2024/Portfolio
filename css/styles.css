@@ -204,7 +204,7 @@ header h1 span {
     border-radius: 3rem;
     margin: 3rem auto;
     animation-name: scale;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -220,7 +220,7 @@ header h1 span {
     border-radius: 3rem;
     margin: 3rem auto;
     animation-name: scale;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -232,7 +232,7 @@ header h1 span {
     border-radius: 3rem;
     margin: 3rem auto;
     animation-name: scale;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -280,7 +280,6 @@ header h1 span {
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 2rem;
-    height: 37rem;
 }
 .brexit {
     display: flex;
@@ -320,6 +319,24 @@ header h1 span {
 @keyframes crece {
     from {transform: scale(1);}
     to {transform: scale(1.1);}
+}
+.an-brexit {
+    background-color: rgba(0.65, 88, 789, 0.3);
+    width: 27rem;
+    border-radius: 3rem;
+    margin: 3rem auto;
+}
+.an-receta {
+    background-color: rgba(0.65, 88, 789, 0.3);
+    width: 27rem;
+    border-radius: 3rem;
+    margin: 3rem auto;
+}
+.an-bootstrap {
+    background-color: rgba(0.65, 88, 789, 0.3);
+    width: 27rem;
+    border-radius: 3rem;
+    margin: 3rem auto;
 }
 
 /* fin */
