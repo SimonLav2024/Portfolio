@@ -273,12 +273,14 @@ header h1 span {
     flex-grow: 1;
     background-color: #bab6b666;
     border-radius: 3%;
+    
 }
 .receta {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 2rem;
+    height: 37rem;
 }
 .brexit {
     display: flex;
@@ -301,11 +303,12 @@ header h1 span {
     .tratra {
         width: auto;
         flex-direction: row;
+        height: 47rem;
     }
 }
 .img-trabajos {
     width: 95%;
-    height: 40%;
+    height: 30%;
     border-radius: 3%;
 }
 .img-trabajos:hover {
