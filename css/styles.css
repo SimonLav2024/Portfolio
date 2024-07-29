@@ -267,7 +267,7 @@ header h1 span {
 
 .tratra {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
     flex-grow: 1;
@@ -291,6 +291,32 @@ header h1 span {
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 2rem;
+}
+@media (min-width: 756px) {
+    .receta, .brexit, .boots {
+        width: 30%;
+    }
+}
+@media (min-width: 480px) {
+    .tratra {
+        width: auto;
+        flex-direction: row;
+    }
+}
+.img-trabajos {
+    width: 95%;
+    height: 40%;
+    border-radius: 3%;
+}
+.img-trabajos:hover {
+    animation-name: crece;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes crece {
+    from {transform: scale(1);}
+    to {transform: scale(1.1);}
 }
 
 /* fin */
