@@ -401,6 +401,13 @@ header h1 span {
 .enviar:hover {
     background-color: var(--botones);
 }
+
+.succes {
+outline-color: #4c921e;
+}
+.error-input {
+    outline-color: rgb(165, 0, 0);
+}
 /* Fin de seccion formulario*/
 /* Footer*/
 .footer {
