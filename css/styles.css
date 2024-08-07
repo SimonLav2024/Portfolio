@@ -65,6 +65,41 @@ header h1 span {
     align-items: center;
     margin: 1rem 2rem;
     border-radius: 3rem;
+    /* overflow: hidden; */
+}
+.icon {
+    display: none;
+}
+@media screen and (max-width: 600px){ /*esta vez la media esta para que todo lo que hay dentro se haga para la vision en el movil */
+    .navegacion a {
+        display: none;
+    }
+    .navegacion a.icon {
+        float: right;
+        display: block;
+    }
+    .navegacion.responsive {
+        position: relative;
+    }
+    .navegacion.responsive.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navegacion.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .icon {
+        text-decoration: none;
+        color: #000000;
+        padding: 1rem;
+        background-color: #9e9e9e6e;
+        border-radius: 3rem;
+        margin: 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
 }
 /* .navegacion :hover {
     background-color: var(--botones);
@@ -211,6 +246,12 @@ header h1 span {
 @keyframes scale {
     from {transform: scale(1);}
     to {transform: scale(1.2)}
+}
+@media (max-width: 600px) {
+    @keyframes scale {
+        from {transform: scale(0.95);}
+        to {transform: scale(1.05);}
+    }
 }
 .boton-b {
     text-align: center;
